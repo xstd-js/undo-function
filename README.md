@@ -5,6 +5,7 @@
 
 ## @xstd/undo-function
 
+Undo function type.
 
 ## 📦 Installation
 
@@ -12,4 +13,12 @@
 yarn add @xstd/undo-function
 # or
 npm install @xstd/undo-function --save
+```
+
+## API
+
+```ts
+interface UndoFunction {
+  (): void;
+}
 ```
